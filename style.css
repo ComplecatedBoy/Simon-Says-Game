@@ -1,0 +1,63 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    padding: 20px;
+    text-align: center;
+    line-height: 2;
+}
+
+h2{
+    height: 4rem;
+    font-family:monospace;
+    font-weight: 100;
+}
+h2 span{
+    color: rgb(152, 16, 16);
+    font-weight: 600;
+}
+.container{
+    width: 60%;
+    margin: 2rem auto;
+    gap:40px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 100%;
+    width: 100%;
+    border: 10px solid black;
+    border-radius: 15%;
+}
+
+.red{
+    background-color:rgba(255, 0, 0, 0.712);
+}
+
+.yellow{
+    background-color: rgba(255, 255, 0, 0.712);
+}
+
+.green{
+    background-color:rgba(4, 251, 4, 0.712);
+}
+
+.purple{
+    background-color:rgba(253, 1, 253, 0.712);
+}
+
+.gameflash{
+    background-color:#FFFd;
+}
+.userflash{
+    background-color: rgb(38, 5, 148);
+}
+
